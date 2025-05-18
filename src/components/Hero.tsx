@@ -16,7 +16,7 @@ const Hero = () => {
                 Frontend Developer (React)
               </h2>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                Dynamic Full Stack Developer with notable expertise in JavaScript, React.js, and modern technologies. 
+                Dynamic Full Stack Developer with notable expertise in JavaScript, React.js, and modern technologies.
                 Proficient in creating scalable and responsive applications through efficient code, seamless integration with APIs, and performance optimization.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
@@ -33,11 +33,11 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          
+
           <div className="flex-1 flex justify-center animate-fade-in" style={{ animationDelay: '0.4s' }}>
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-xl">
               <img
-                src="/lovable-uploads/24ab92c7-9919-4c8a-bbca-abdac3de7a98.png"
+                src="/images/me.jpg"
                 alt="Tejas Raju Jagdale"
                 className="w-full h-full object-cover object-center"
               />

@@ -15,11 +15,11 @@ const Experience = () => {
           </h2>
           <div className="h-1 w-20 bg-theme-blue mt-6 rounded-full"></div>
         </div>
-        
+
         <div className="max-w-3xl mx-auto">
           <div className="relative border-l-2 border-theme-blue pl-8 pb-12">
             <div className="absolute w-4 h-4 bg-theme-blue rounded-full -left-[9px] top-0"></div>
-            
+
             <div className="mb-10 animate-fade-in">
               <div className="flex flex-wrap justify-between items-center mb-4">
                 <h3 className="text-xl font-bold text-gray-800">Software Developer</h3>
@@ -38,12 +38,12 @@ const Experience = () => {
                 </ul>
               </div>
             </div>
-            
+
             <div className="mb-2 animate-fade-in" style={{ animationDelay: '0.2s' }}>
               <div className="flex flex-wrap justify-between items-center mb-4">
                 <h3 className="text-xl font-bold text-gray-800">Full Stack Development Student</h3>
                 <div className="inline-flex items-center bg-blue-100 text-theme-blue px-3 py-1 rounded-full text-sm">
-                  July 2024 - Present
+                  July 2024 - Dec 2024
                 </div>
               </div>
               <h4 className="text-lg font-semibold text-theme-blue mb-2">Masai School</h4>
@@ -56,7 +56,7 @@ const Experience = () => {
                 </ul>
               </div>
             </div>
-            
+
             <div className="absolute w-4 h-4 bg-theme-blue rounded-full -left-[9px] bottom-0"></div>
           </div>
         </div>

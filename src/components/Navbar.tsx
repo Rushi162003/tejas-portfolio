@@ -7,13 +7,13 @@ import { Button } from '@/components/ui/button';
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-  
+
   // Check if the page has been scrolled
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 10);
     };
-    
+
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
@@ -38,11 +38,11 @@ const Navbar = () => {
           <div className="flex-shrink-0 font-bold text-xl">
             <a href="#home" className="text-theme-blue">Tejas Raju Jagdale</a>
           </div>
-          
+
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
             {navItems.map((item) => (
-              <a 
+              <a
                 key={item.name}
                 href={item.href}
                 className="text-gray-600 hover:text-theme-blue transition-colors duration-300"
@@ -50,16 +50,16 @@ const Navbar = () => {
                 {item.name}
               </a>
             ))}
-            <a 
-              href="/Tejas_Jagdale_Resume.pdf" 
-              target="_blank" 
+            <a
+              href="/images/tejasjagdaleresume.png"
+              target="_blank"
               rel="noopener noreferrer"
               className="text-theme-blue font-medium"
             >
               Resume
             </a>
           </div>
-          
+
           {/* Mobile Navigation Button */}
           <div className="md:hidden">
             <button
@@ -71,7 +71,7 @@ const Navbar = () => {
             </button>
           </div>
         </div>
-        
+
         {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="md:hidden bg-white py-4 px-4 absolute top-16 left-0 right-0 shadow-lg animate-fade-in">
@@ -86,9 +86,9 @@ const Navbar = () => {
                   {item.name}
                 </a>
               ))}
-              <a 
-                href="/Tejas_Jagdale_Resume.pdf" 
-                target="_blank" 
+              <a
+                href="/Tejas_Jagdale_Resume.pdf"
+                target="_blank"
                 rel="noopener noreferrer"
                 className="text-theme-blue font-medium py-2"
               >
